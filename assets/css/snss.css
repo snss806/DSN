@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 130vh;
+    background: #333 url('../img/antenna-contact-dawn-dusk-33153.jpg') no-repeat center center / cover;
+    color : #fff;
+    overflow: hidden;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+    
+}
+
+
+h1, h2, h3, h4{
+    font-weight: 200;
+    margin: 0.4rem;
+    text-align: justify;
+    opacity: 1;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    color : #fff;
+    }
+
+h3{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color : #fff;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+    color : #fff;
+}
+
+.tip-txt > .txt{
+    border-right: 0.2rem solid white;
+    color: red;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+@media( min-width: 1200px){
+   h1{
+       font-size:5rem;
+   }
+}
+
+@media(max-width:800px){
+    .container{
+        padding: 0 1rem;
+    }
+
+    h1{
+        font-size:5rem;
+    }
+}
+
+@media(max-width:500px){
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 0.9rem;
+    }
+}
